@@ -1032,6 +1032,49 @@ Our Swiper ( Pagination) Section Start.
       padding: 0.8rem;
     }
   }
+  .project-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Or any font you prefer */
+}
+
+.project-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+ /* link button color  */
+ .project-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  color:rgb(0, 195, 255); /* Initial text color (blue) */
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solidrgb(0, 255, 98); /* Matching border */
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-link:hover {
+  background-color:rgba(0, 255, 136, 0.77); /* Blue background on hover */
+  color: #fff; /* White text on hover */
+  box-shadow: 0 4px 12px rgba(0, 255, 106, 0.74);
+  transform: scale(1.05);
+}
   
   /* Mobile View */
   @media (max-width: 480px) {
